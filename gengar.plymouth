@@ -1,0 +1,58 @@
+[Plymouth Theme]
+Name=Gengar
+Description=666 LUKS + Gengar animation
+ModuleName=two-step
+
+[two-step]
+Font=Fira Sans Regular 11
+TitleFont=Fira Sans Regular 11
+ImageDir=/usr/share/plymouth/themes/gengar
+DialogHorizontalAlignment=.5
+DialogVerticalAlignment=.5
+TitleHorizontalAlignment=.5
+TitleVerticalAlignment=.382
+HorizontalAlignment=.5
+VerticalAlignment=.5
+WatermarkHorizontalAlignment=.5
+WatermarkVerticalAlignment=.5
+Transition=none
+TransitionDuration=0.0
+BackgroundStartColor=0x1b1b1b
+BackgroundEndColor=0x1b1b1b
+ProgressBarBackgroundColor=0x606060
+ProgressBarForegroundColor=0xffffff
+DialogClearsFirmwareBackground=true
+MessageBelowAnimation=true
+MessageBelowAnimationDistance=10
+CursorAnimation=breath
+CursorAnimationSpeed=7
+
+[boot-up]
+UseEndAnimation=true
+
+[shutdown]
+UseEndAnimation=true
+UseFirmwareBackground=false
+
+[reboot]
+UseEndAnimation=true
+UseFirmwareBackground=false
+
+[updates]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Installing Updates...
+SubTitle=Don't turn off the computer, you idiot
+
+[system-upgrade]
+SuppressMessages=false
+ProgressBarShowPercentComplete=false
+UseProgressBar=true
+
+[firmware-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading Firmware...
+SubTitle=Don't turn off the computer, you idiot
